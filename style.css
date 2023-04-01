@@ -1,0 +1,76 @@
+.card--container {
+  border: 5px solid yellow;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 500px;
+}
+.card--container header {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+  height: 30px;
+}
+.card--container header img {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  position: relative;
+  top: 15px;
+}
+.card--container header p {
+  font-weight: bolder;
+}
+.card--container header .type {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 15px;
+}
+.card--container header .type img {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 0px;
+}
+.card--container main {
+  display: flex;
+  justify-content: center;
+}
+.card--container main img {
+  width: 80%;
+  border-radius: 20px;
+  border: 2px solid yellow;
+}
+.card--container footer {
+  width: 100%;
+}
+.card--container footer ul {
+  width: 80%;
+}
+.card--container footer ul li {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.card--container footer ul li h5 {
+  position: absolute;
+  left: 55px;
+  font-size: 30px;
+}
+.card--container footer ul li p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hidden {
+  visibility: hidden;
+}
